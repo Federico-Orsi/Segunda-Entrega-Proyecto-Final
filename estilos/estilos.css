@@ -37,6 +37,12 @@ body{
     
 }
 
+.corouselSection{
+    margin-right: 18%;
+    margin-left: 18%;
+}
+
+
 .servicios{
     background-color: rgb(201, 188, 165);
     height: 380px;
@@ -50,6 +56,98 @@ body{
 }
 
 
+.div-height{
+    height: 100px;
+}
+
+.ubicacion{
+    text-align: left;
+    margin-right: 125px;
+}
+
+.bg-white{
+    background-color: #fff;
+}
+
+.mediaIcon:hover{
+    transform: scale(125%);
+    transition: all 1s;
+    }
+
+  #mediaIcon:hover{
+        transform: scale(125%);
+        transition: all 1s;
+        }
+
+
+/*  
+Seccion Nosotros
+*/
+
+
+#imgNosotros{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    gap: 2%;
+}
+
+.imgIcons{
+height: 50px;
+width: 50px;
+}
+
+.iconDiv{
+    margin-left: 5%;
+}
+
+
+.figcaption{
+    margin-left: 8%;
+}
+
+
+#containerNosotros{
+align-self: center;
+     } 
+
+#imgTablet{
+    width: 50%;
+}
+
+.h1Nosotros{
+    text-align: center;
+}
+
+.h3Titulo{
+    background-color: rgb(117, 106, 106);
+    color: #fff;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+/*  
+Seccion Contabilidad
+*/
+
+.servicios{
+    background-color: rgb(201, 188, 165);
+    height: 380px;
+    width: 300px;
+    border-radius: 5px;
+    color:#fff;
+    text-align: center;
+    margin: 5px;
+    padding-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.servicios p{
+    margin-block-start: 16px;
+    margin-block-end: 1em ;
+}
+
 
 
 
@@ -58,5 +156,60 @@ body{
         height: 100%;
         width: 30%;
     }
+  
+    
+    /*  
+ Seccion Contabilidad
+*/
+    
+    
+    #servicios{
+        display: flex;
+        flex-direction: row ;
+        justify-content:center;
+        margin-top: 160px;
+        margin-bottom: 70px;
+    
+    }    
+    
+    .servicios:hover{
+        transform: scale(110%);
+        transition: all 1s;
+    }
+
+    .servicios:hover{
+        tra
+    }
+     
+     
+    
+    
+    .servicios{
+        margin: 3px;
+    }
+    
+    .separador{
+        margin-top: -13px;
+        }
+        
+        .primerP{
+            margin-top: 19px;
+        }
+        
+        .paddingP{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+     .footerInfo{
+         background-color: black;
+         color: #fff;
+         font-family:'quicksand', sans-serif;
+         font-size: small;
+         
+     }
+
+     
+
 
 }
