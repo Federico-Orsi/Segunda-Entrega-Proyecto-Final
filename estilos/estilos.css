@@ -1,3 +1,9 @@
+/*  
+Estilos generales
+Mobile First
+*/
+
+
 *{
     margin: 0;
     padding: 0;
@@ -79,7 +85,20 @@ body{
         transition: all 1s;
         }
 
+        .footerInfo{
+            background-color: black;
+            color: #fff;
+            font-family:'quicksand', sans-serif;
+            font-size:small;
+            
+        }
 
+    .visibility{
+          visibility: hidden;
+          display: none;
+        }
+
+    
 /*  
 Seccion Nosotros
 */
@@ -87,7 +106,7 @@ Seccion Nosotros
 
 #imgNosotros{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 5%;
     gap: 2%;
 }
@@ -112,7 +131,7 @@ align-self: center;
      } 
 
 #imgTablet{
-    width: 50%;
+    width: 100%;
 }
 
 .h1Nosotros{
@@ -148,16 +167,55 @@ Seccion Contabilidad
     margin-block-end: 1em ;
 }
 
+#servicios{
+    display: flex;
+    flex-direction: column ;
+    justify-content:center;
+    margin-top: 160px;
+    margin-bottom: 70px;
+    align-items: center;
+
+}    
 
 
 
 @media (min-width:768px){
+    
+    /*  
+ Estilos generales
+*/
+    
+    
+    
     .carrousel{
         height: 100%;
         width: 30%;
     }
   
-    
+    .visibility{
+        visibility:visible;
+        display: unset;
+      }
+
+      .footerInfo{
+        
+        font-size:small;
+        
+    }
+
+   /*  
+ Seccion Nosotros
+*/  
+    #imgNosotros{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #imgTablet{
+        width: 50%;
+    }
+
+
     /*  
  Seccion Contabilidad
 */
@@ -201,13 +259,7 @@ Seccion Contabilidad
             padding-right: 15px;
         }
 
-     .footerInfo{
-         background-color: black;
-         color: #fff;
-         font-family:'quicksand', sans-serif;
-         font-size: small;
-         
-     }
+     
 
      
 
